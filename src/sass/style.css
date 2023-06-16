@@ -1,0 +1,430 @@
+body textarea {
+  outline: none;
+}
+body input {
+  outline: none;
+}
+body .Link {
+  text-decoration: none;
+}
+
+.head {
+  background-color: #E1F3E3;
+  height: 60px;
+}
+.head .container .row .headLeft {
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+.head .container .row .headLeft .iconHead i {
+  color: #828282;
+}
+.head .container .row .headLeft .iconHead i:hover {
+  color: #555555;
+}
+.head .container .row .headLeft .iconY {
+  margin: 0px 25px;
+}
+.head .container .row .headRight {
+  height: 60px;
+  padding: 0;
+}
+.head .container .row .headRight .ulHead {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+}
+.head .container .row .headRight .ulHead li {
+  list-style: none;
+}
+.head .container .row .headRight .ulHead li .liLinkhead {
+  color: #828282;
+}
+.head .container .row .headRight .ulHead li .liLinkhead:hover {
+  color: #555555;
+}
+.head .container .row .headRight .ulHead li .liLinkhead .buttonHead {
+  border: none;
+  border: 1px solid #828282;
+  background-color: transparent;
+  border-radius: 4px;
+  padding: 3px 24px;
+  transition: 0.6s;
+  color: #828282;
+}
+.head .container .row .headRight .ulHead li .liLinkhead .buttonHead:hover {
+  background-color: #828282;
+  color: white;
+  transition: 0.6s;
+}
+
+.navbarr {
+  height: 120px;
+}
+.navbarr .container .row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbarr .container .row .logo {
+  height: 80px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+.navbarr .container .row .navv {
+  height: 100px;
+  padding: 0;
+}
+.navbarr .container .row .navv ul {
+  height: 100px;
+  width: 100%;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between !important;
+}
+.navbarr .container .row .navv ul li {
+  list-style: none;
+}
+.navbarr .container .row .navv ul li .linkNav {
+  color: #3FB44A;
+  font-weight: 500;
+  font-size: 17px;
+}
+.navbarr .container .row .bars-box {
+  display: none;
+}
+
+.HomeOne .row {
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+}
+.HomeOne .row .leftHomeOne {
+  padding-left: 110px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.HomeOne .row .leftHomeOne .h1HomeOne {
+  color: #3FB44A;
+  font-size: 45px;
+}
+.HomeOne .row .leftHomeOne .pHomeOne {
+  color: #828282;
+  padding-right: 60px;
+  font-size: 20px;
+  margin-top: 10px;
+}
+.HomeOne .row .leftHomeOne .buttonHomeOne {
+  background: #FF931E;
+  box-shadow: -1px 1px 12px rgba(103, 103, 103, 0.21);
+  border-radius: 4px;
+  color: white;
+  font-weight: 500;
+  border: none;
+  border: 1px solid #FF931E;
+  padding: 14px 25px;
+  margin-top: 10px;
+  transition: 0.6s;
+}
+.HomeOne .row .leftHomeOne .buttonHomeOne:hover {
+  background-color: white;
+  color: #FF931E;
+  border: 1px solid #FF931E;
+  transition: 0.6s;
+}
+.HomeOne .row .rightHomeOne {
+  background-image: url("../imgs/Home/Union.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 100%;
+  display: flex;
+  justify-content: flex-end;
+  max-width: 700px;
+}
+.HomeOne .row .rightHomeOne .girlimg {
+  width: 100%;
+}
+
+.learnExcel {
+  margin-top: 90px;
+}
+.learnExcel .container .row .text-learnExcel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.learnExcel .container .row .text-learnExcel h1 {
+  color: #3FB44A;
+  margin-bottom: 40px;
+}
+.learnExcel .video-learexcel {
+  position: relative;
+}
+.learnExcel .video-learexcel img {
+  border-radius: 16px;
+}
+.learnExcel .video-learexcel .playIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+}
+.learnExcel .video-learexcel .playIcon i {
+  background-color: #3FB44A;
+  border-radius: 50%;
+  padding: 25px 25px 25px 30px;
+  color: white;
+  font-size: 40px;
+}
+
+.excelTemplates {
+  background-color: #B2E0B6;
+  padding: 40px 0px;
+}
+.excelTemplates .container .row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.excelTemplates .container .row .left-excelTemplates {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.excelTemplates .container .row .left-excelTemplates img {
+  width: 100%;
+}
+.excelTemplates .container .row .right-excelTemplates {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.excelTemplates .container .row .right-excelTemplates .h1-excelTemplates {
+  color: #505050;
+}
+.excelTemplates .container .row .right-excelTemplates .p-excelTemplates {
+  color: #525252;
+  font-size: 20px;
+  margin-top: 10px;
+}
+.excelTemplates .container .row .right-excelTemplates .button-excelTemplates {
+  background: #FF931E;
+  box-shadow: -1px 1px 12px rgba(103, 103, 103, 0.21);
+  border-radius: 4px;
+  color: white;
+  font-weight: 500;
+  border: none;
+  border: 1px solid #FF931E;
+  padding: 14px 25px;
+  margin-top: 10px;
+  transition: 0.6s;
+}
+.excelTemplates .container .row .right-excelTemplates .button-excelTemplates:hover {
+  background-color: white;
+  color: #FF931E;
+  border: 1px solid #FF931E;
+  transition: 0.6s;
+}
+
+.getintouch {
+  padding: 70px 0px;
+}
+.getintouch .container .row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.getintouch .container .row .left-getintouch .h3-getintouch {
+  color: #3FB44A;
+  font-size: 40px;
+  font-weight: 500;
+}
+.getintouch .container .row .left-getintouch .p-getintouch {
+  color: #828282;
+}
+.getintouch .container .row .left-getintouch div p {
+  color: #828282;
+}
+.getintouch .container .row .left-getintouch div input {
+  width: 100%;
+  border: none;
+  border: 1px solid #828282;
+  border-radius: 4px;
+  padding: 10px 15px;
+}
+.getintouch .container .row .left-getintouch div textarea {
+  width: 100%;
+  height: 200px;
+  padding: 20px 20px;
+}
+.getintouch .container .row .left-getintouch div .button-getintouch {
+  background: #3FB44A;
+  box-shadow: -1px 1px 12px rgba(103, 103, 103, 0.21);
+  border-radius: 4px;
+  color: white;
+  font-weight: 500;
+  border: none;
+  border: 1px solid #3FB44A;
+  padding: 14px 25px;
+  margin-top: 10px;
+  transition: 0.6s;
+}
+.getintouch .container .row .left-getintouch div .button-getintouch:hover {
+  background-color: white;
+  color: #3FB44A;
+  border: 1px solid #3FB44A;
+  transition: 0.6s;
+}
+.getintouch .container .row .right-getintouch {
+  height: 600px;
+  background-image: url("../imgs/Home/imgboy.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 16px;
+}
+
+.footer {
+  background-color: #3FB44A;
+  padding: 70px 0px;
+}
+.footer .container .row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.footer .container .row ul {
+  width: 100%;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer .container .row ul li {
+  list-style: none;
+}
+.footer .container .row ul li .linkFooter {
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 17px;
+}
+.footer .container .row .icon-footer {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+.footer .container .row .icon-footer .icon-foot {
+  color: white;
+}
+.footer .container .row .text-footer {
+  margin-top: 20px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 992px) {
+  .navbarr .container .row .navv {
+    display: none;
+  }
+  .navbarr .container .row .bars-box {
+    display: block;
+    width: 17%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    padding-right: 15px;
+  }
+  .navbarr .container .row .bars-box p {
+    margin-top: 12px;
+    color: #3FB44A;
+    font-weight: 600;
+    font-size: 18px;
+  }
+  .navbarr .container .row .bars-box i {
+    color: #3FB44A;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .HomeOne .row {
+    margin: 0;
+  }
+  .HomeOne .row .leftHomeOne {
+    padding-left: 50px;
+  }
+  .HomeOne .row .leftHomeOne .pHomeOne {
+    padding-right: 30px;
+    margin-top: 10px;
+  }
+  .HomeOne .row .rightHomeOne {
+    max-width: 700px;
+    background-image: url("../imgs/Home/Union.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    display: flex;
+    margin-top: 25px;
+  }
+  .HomeOne .row .rightHomeOne .girlimg {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .footer {
+    background-color: #3FB44A;
+    padding: 70px 0px;
+  }
+  .footer .container .row {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer .container .row ul {
+    width: 100%;
+    padding: 0;
+    display: flex;
+    flex-direction: column !important;
+    align-items: start;
+    padding-left: 40px;
+  }
+  .footer .container .row ul li {
+    list-style: none;
+    line-height: 30px;
+  }
+  .footer .container .row ul li .linkFooter {
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 17px;
+  }
+  .footer .container .row .icon-footer {
+    color: white;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    margin-top: 50px;
+    padding: 0px 50px;
+  }
+  .footer .container .row .icon-footer .icon-foot {
+    color: white;
+  }
+  .footer .container .row .text-footer {
+    margin-top: 20px;
+    color: white;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    padding: 0px 50px;
+  }
+}/*# sourceMappingURL=style.css.map */

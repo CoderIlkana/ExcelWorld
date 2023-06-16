@@ -1,0 +1,46 @@
+.navbarr {
+    height: 120px;
+
+    .container {
+        .row {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .logo {
+                height: 80px;
+                // background-color: aqua;
+                padding: 0;
+                display: flex;
+                align-items: center;
+
+            }
+
+            .navv {
+                height: 100px;
+                padding: 0;
+
+                ul {
+                    height: 100px;
+                    width: 100%;
+                    padding: 0;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between !important;
+                    
+                    li {
+                        list-style: none;
+                        .linkNav{
+                            color: #3FB44A;
+                            font-weight: 500;
+                            font-size: 17px;
+                        }
+                    }
+                }
+            }
+            // bars
+            .bars-box{
+                display: none;
+            }
+        }
+    }
+}
